@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FlyGames </title>
+</head>
+<body>
+
+<style>
+
+#info_bar
+{
+	font-family: verdana;
+  background-color: #1e1b1e;
+  color: #fff;
+  width: 200px;
+  padding: 0 15px;
+	margin-top: 80px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+#awesome
+{
+	font-size:12px;
+}
+#header
+{
+	font-family: verdana;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #adffda;
+}
+#footer
+{
+	font-family: verdana;
+	position: absolute;
+  bottom: 0;
+	left:0;
+  width: 100%;
+  background-color: #adffda;
+}
+#map
+{
+	position: absolute;
+	top:80px;
+	left: 0;
+	width:1100px;
+	height: 800px;
+	background-image: url("map.jpg");
+	background-size: 1100px 800px;
+}
+#sprite
+{
+  margin-top: 295px;
+  margin-left: 420px;
+}
+h1
+{
+  margin: 25px;
+}
+h2
+{
+  text-align: center;
+}
+
+</style>
+
+<div id="header">
+<h1>Grand Hawaiian Tour</h1>
+</div>
+	 <div id="map">
+			<div id="sprite"> <img src="sprite.png"></div>
+	 </div>
+
+	<div id="info_bar">
+		<h3>Column 'o buttons</h3>
+		 <div id="awesome">
+		 <p>This is an awesome game!</p>
+		 </div>
+		  <div id="play"><input type="submit" value="Click to play"/></div>
+		   <div id="quit"><input type="submit" value="Toss in the towel"/></div>
+
+	</div>
+
+	<footer id="footer">
+		<h2>Copyright © FlyGames ✪ </h2>
+	</footer>
+
+
+</body>
+</html>
